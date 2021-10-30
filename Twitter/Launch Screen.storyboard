@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3bh-1L-pzd">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eHY-iR-AMw">
+            <objects>
+                <viewController id="3bh-1L-pzd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iv2-fN-EIN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="Twitter_Logo_Blue" translatesAutoresizingMaskIntoConstraints="NO" id="jo9-qS-ryH">
+                                <rect key="frame" x="45" y="133" width="284" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="165" id="G51-LC-gV1"/>
+                                    <constraint firstAttribute="width" constant="45" id="MsP-ke-k1O"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bJ4-ge-UWM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bJ4-ge-UWM" firstAttribute="trailing" secondItem="jo9-qS-ryH" secondAttribute="trailing" constant="45" id="IOc-i7-uwn"/>
+                            <constraint firstItem="bJ4-ge-UWM" firstAttribute="bottom" secondItem="jo9-qS-ryH" secondAttribute="bottom" constant="165" id="Mr1-YB-2UG"/>
+                            <constraint firstItem="jo9-qS-ryH" firstAttribute="top" secondItem="bJ4-ge-UWM" secondAttribute="top" constant="165" id="RRp-gn-8F8"/>
+                            <constraint firstItem="jo9-qS-ryH" firstAttribute="centerY" secondItem="Iv2-fN-EIN" secondAttribute="centerY" id="VjP-2e-cjX"/>
+                            <constraint firstItem="jo9-qS-ryH" firstAttribute="leading" secondItem="bJ4-ge-UWM" secondAttribute="leading" constant="45" id="h7D-Zg-OE3"/>
+                            <constraint firstItem="jo9-qS-ryH" firstAttribute="centerX" secondItem="Iv2-fN-EIN" secondAttribute="centerX" id="rxu-JH-A8l"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3K-0h-zWM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="237.93103448275863"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Twitter_Logo_Blue" width="400" height="400"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
