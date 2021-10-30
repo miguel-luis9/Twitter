@@ -22,3 +22,34 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 ![Twitter2](https://user-images.githubusercontent.com/90986902/139523561-5bcb2a00-41f5-44b0-a49f-a8162042cdf6.gif)
+
+# twitter_clone
+ # Twitter - Part I
+
+This is a basic twitter app to read your tweets.
+
+Time spent: **10** hours spent in total
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [x] User sees app icon in home screen and styled launch screen. (1pt)
+- [x] User can log in. (1pt)
+- [x] User can log out. (1pt)
+- [x] User stays logged in across restarts. (1pt)
+- [x] User can view tweets with the user profile picture, username, and tweet text. (6pts)
+
+The following **bonus** features are implemented:
+
+- [x] User can pull to refresh. (1pt)
+- [x] User can load past tweets infinitely. (2pts)
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+![Twitterclone](https://user-images.githubusercontent.com/90986902/139523616-37b64549-21c0-4c2d-81c8-d3f6342920b2.gif)
+
+
+
+
